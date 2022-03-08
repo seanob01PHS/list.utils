@@ -1,4 +1,4 @@
-#' Helper for selecting columns by inclusion or exclusion but not both.
+#' Helper for selecting columns by inclusion or exclusion but not both. Useless to end user.
 #'
 #' Default behaviour if neither `key_cols` nor `non_key_cols` are provided is to select all columns.
 #'

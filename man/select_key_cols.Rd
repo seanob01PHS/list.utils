@@ -2,7 +2,7 @@
 % Please edit documentation in R/select_key_cols.R
 \name{select_key_cols}
 \alias{select_key_cols}
-\title{Helper for selecting columns by inclusion or exclusion but not both.}
+\title{Helper for selecting columns by inclusion or exclusion but not both. Useless to end user.}
 \usage{
 select_key_cols(df, key_cols = NULL, non_key_cols = NULL)
 }
@@ -17,7 +17,7 @@ select_key_cols(df, key_cols = NULL, non_key_cols = NULL)
 Dataframe
 }
 \description{
-Helper for selecting columns by inclusion or exclusion but not both.
+Default behaviour if neither \code{key_cols} nor \code{non_key_cols} are provided is to select all columns.
 }
 \examples{
 > a <- tibble(key_1 = numeric(),
